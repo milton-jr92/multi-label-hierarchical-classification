@@ -1,0 +1,20 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   1
+Resultsets: 2
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       12/4/16 12:44 PM
+
+
+Dataset                   (1) lazy.IBk '-K  | (2) trees.J48 
+------------------------------------------------------------
+church0.names             (10)   0.74(0.25) |   1.20(0.31)  
+------------------------------------------------------------
+                                    (v/ /*) |        (0/1/0)
+
+
+Key:
+(1) lazy.IBk '-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"' -3080186098777067172
+(2) trees.J48 '-C 0.25 -M 2' -217733168393644444
+
